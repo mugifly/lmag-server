@@ -1,0 +1,30 @@
+{
+  "name": "lmag-server",
+  "version": "0.1.0",
+  "description": "Unofficial WebAPI server for mag (door sensor)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "pretest": "eslint .",
+    "start": "node server.js",
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mugifly/lmag-server.git"
+  },
+  "author": "Masanori Ohgita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mugifly/lmag-server/issues"
+  },
+  "homepage": "https://github.com/mugifly/lmag-server#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "noble": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "nodemon": "^1.18.3"
+  }
+}
